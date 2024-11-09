@@ -1,6 +1,6 @@
-package Domain;
+package Adapter.Domain;
 
-import Interfaces.IDiscoDeVinil;
+import Adapter.Interfaces.IDiscoDeVinil;
 
 public class DiscoDeVinil implements IDiscoDeVinil {
     @Override

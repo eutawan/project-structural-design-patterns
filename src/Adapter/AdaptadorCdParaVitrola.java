@@ -1,7 +1,7 @@
 package Adapter;
 
-import Interfaces.ICd;
-import Interfaces.IVitrola;
+import Adapter.Interfaces.ICd;
+import Adapter.Interfaces.IVitrola;
 
 public class AdaptadorCdParaVitrola implements IVitrola {
     private final ICd cd;

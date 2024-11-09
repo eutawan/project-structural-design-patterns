@@ -1,7 +1,7 @@
-package Domain;
+package Adapter.Domain;
 
-import Interfaces.IDiscoDeVinil;
-import Interfaces.IVitrola;
+import Adapter.Interfaces.IDiscoDeVinil;
+import Adapter.Interfaces.IVitrola;
 
 public class Vitrola implements IVitrola {
     private final IDiscoDeVinil vinil;

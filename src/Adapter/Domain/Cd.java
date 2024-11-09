@@ -1,6 +1,6 @@
-package Domain;
+package Adapter.Domain;
 
-import Interfaces.ICd;
+import Adapter.Interfaces.ICd;
 
 public class Cd implements ICd {
     @Override

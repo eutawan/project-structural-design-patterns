@@ -1,10 +1,11 @@
-import Adapter.AdaptadorCdParaVitrola;
-import Domain.Cd;
-import Domain.DiscoDeVinil;
-import Domain.Vitrola;
-import Interfaces.ICd;
-import Interfaces.IDiscoDeVinil;
-import Interfaces.IVitrola;
+package Adapter;
+
+import Adapter.Domain.Cd;
+import Adapter.Domain.DiscoDeVinil;
+import Adapter.Domain.Vitrola;
+import Adapter.Interfaces.ICd;
+import Adapter.Interfaces.IDiscoDeVinil;
+import Adapter.Interfaces.IVitrola;
 
 public class Main {
     public static void main(String[] args) {
