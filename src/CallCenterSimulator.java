@@ -3,7 +3,10 @@ public class CallCenterSimulator {
 
         CallCenterFacade callCenterFacade = new CallCenterFacade();
 
+        callCenterFacade.atenderTodosServicos();
         callCenterFacade.atenderClienteEspecial();
+        callCenterFacade.atenderEmprestimo();
+        callCenterFacade.atenderPrevidencia();
 
     }
 }
